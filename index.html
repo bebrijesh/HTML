@@ -8,6 +8,8 @@
     <title>My first web page</title>
   </head>
   <body>
+    <!-- Comment -->
+
     <!-- Headings -->
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
@@ -17,13 +19,11 @@
     <h6>Heading 6</h6>
 
     <!-- Paragraph -->
-    <p>Hello, World!</p>
+    <p>Paragraph</p>
 
     <!-- Pre-formatted Text -->
     <pre>
-      Hello, HTML.
-      Hello, CSS.
-      Hello, JavaScript.
+      Pre-formatted Text
     </pre>
 
     <!-- Line break -->
@@ -33,7 +33,6 @@
     <hr />
 
     <!-- Entity -->
-    <!-- https://www.w3schools.com/html/html_entities.asp -->
     &lt; &#60;
 
     <!-- Style -->
@@ -64,19 +63,72 @@
 
     <!-- Blockquote -->
     <blockquote>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi
       dolorum est mollitia! Quasi ad optio dignissimos amet maxime? Vitae
-      similique atque placeat quam eaque nesciunt? Incidunt dolorem id enim?
+      similique atque placeat quam eaque nesciunt? Incidunt dolorem id enim?"
     </blockquote>
 
     <!-- Short quote -->
     <p><q>I'm Batman.</q></p>
 
-    <!-- Cite (Work title) -->
+    <!-- Cite (Title of a creative work) -->
     <p><cite>The Witcher</cite></p>
 
     <!-- BDO (LTR or RTL text) -->
     <p><bdo dir="ltr">Hello, World!</bdo></p>
     <p><bdo dir="rtl">Hello, World!</bdo></p>
+
+    <!-- Link -->
+    <p><a href="https://www.google.com/">Google</a></p>
+
+    <!-- Target attribute -->
+    <p><a href="https://www.google.com//" target="_blank">Google</a></p>
+    <p><a href="https://www.google.com/" target="_parent">Google</a></p>
+    <p><a href="https://www.google.com/" target="_self">Google</a></p>
+    <p><a href="https://www.google.com/" target="_top">Google</a></p>
+
+    <!-- Image as link -->
+    <p>
+      <a href="https://www.google.com/">
+        <img
+          src="HtmlLogo.png"
+          alt="Google"
+          title="This is HTML Logo"
+          width="100"
+          height="100"
+          loading="lazy"
+        />
+      </a>
+    </p>
+
+    <!-- Image as a figure -->
+    <p>
+      <figure>
+        <img
+          src="HtmlLogo.png"
+          alt="Google"
+          title="This is HTML Logo"
+          width="100"
+          height="100"
+          loading="lazy"
+        />
+        <figcaption>HTML Logo</figcaption>
+      </figure>
+    </p>
+
+    <!-- Email as a link -->
+    <p><a href="abc@gmail.com">Mail</a></p>
+
+    <!-- Button as a link -->
+    <p><button onclick="document.location='Homepage URL'">Homepage</button></p>
+
+    <!-- Title(Tooltip) for link -->
+    <p><a href="https://www.google.com/" title="Visit Google">Google</a></p>
+
+    <!-- Code -->
+    <figure>
+      <figcaption>HTML code</figcaption>
+      <code>&lt;h1&gt;Hello, World!&lt;/h1&gt;</code>
+    </figure>
   </body>
 </html>
