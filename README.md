@@ -1,28 +1,27 @@
 # HTML
 
-1. History of HTML
-2. Naming Convention
-3. Comment
-4. Hello World
-5. Elements
-6. Attribute
-7. Headings
-8. Paragraph
-9. Pre-formatted Text
-10. Line break
-11. Divider
-12. Entity
-13. Styles
-14. Formatting 
-15. Quotations & Citation
-16. Link
-17. Code
-18. Semantic tags
-19. Navigation
-20. Article
-21. Section
-22. Aside
-23. Summary
-24. Details
-25. Table
-26. Form
+1. Naming Convention
+2. Comment
+3. Hello World
+4. Elements
+5. Attribute
+6. Headings
+7. Paragraph
+8. Pre-formatted Text
+9. Line break
+10. Divider
+11. Entity
+12. Styles
+13. Formatting
+14. Quotations & Citation
+15. Link
+16. Code
+17. Semantic tags
+18. Navigation
+19. Article
+20. Section
+21. Aside
+22. Summary
+23. Details
+24. Table
+25. Form
